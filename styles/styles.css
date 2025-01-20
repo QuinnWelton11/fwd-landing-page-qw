@@ -22,8 +22,27 @@
 
 /* Typography
 --------------------------------------------- */
-body {
+
+@media (min-width: 20em) {
+
+	body {
+		
+	}
+}
+
+@media (min-width: 48em) {
+
+}
+
+@media (min-width: 90em) {
 	
+}
+
+body {
+	background-color: #252422;
+	margin: 0 auto;
+	/* padding: 1rem;
+	max-width: 90em; */
 }
 
 h1,
@@ -33,10 +52,15 @@ h4,
 h5,
 h6 {
 	
+	font-family: "Yantramanav", sans-serif;
+	
+
 }
 
 p {
 	
+	font-family: "Heebo", sans-serif;
+
 }
 
 
@@ -65,11 +89,12 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-	
+	color: #fffcf2;
+	font-family: "Yantramanav" sans-serif;
 }
 
 a:visited {
-	
+	color: #ccc5b9;
 }
 
 a:hover {
@@ -98,10 +123,58 @@ a:active {
 /* Header
 --------------------------------------------- */
 
+header {
+	background-color: #eb5e28;
+	padding: .25rem 1rem;
+}
 
 /* Main
 --------------------------------------------- */
 
+.site-wrapper {
+
+	
+	/* background-color: #fffcf2; */
+	/* padding: 1rem; */
+
+}
+
+.intro {
+	
+	padding: 1.5rem 0rem;
+
+}
+
+.intro h1 {
+	color: #fffcf2;
+	text-align: center;
+}
+
+.intro p {
+	color: #ccc5b9;
+	padding: 0rem 1rem;
+	line-height: 1.3rem;
+}
+
+.about-me {
+	
+}
+
+.about-me h2 {
+	text-align: center;
+	color: #eb5e28;
+}
+
+.headshot img {
+
+	border-radius: 50%;
+	width: 50%;
+
+}
+
+.headshot {
+
+}
 
 /* Footer
 --------------------------------------------- */
