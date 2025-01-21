@@ -157,7 +157,7 @@ header {
 }
 
 .about-me {
-	
+	color: #fffcf2;
 }
 
 .about-me h2 {
@@ -176,5 +176,10 @@ header {
 
 }
 
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 40%;
+}
 /* Footer
 --------------------------------------------- */
