@@ -28,171 +28,71 @@
 	body {
 		
 	}
-}
-
-@media (min-width: 48em) {
-
-}
-
-@media (min-width: 90em) {
 	
-}
-
-body {
-	background-color: #252422;
-	margin: 0 auto;
-	/* padding: 1rem;
-	max-width: 90em; */
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
 	
-	font-family: "Yantramanav", sans-serif;
+	body {
+		background-color: #252422;
+		margin: 0 auto;
+		/* padding: 1rem;
+		max-width: 90em; */
+	}
 	
-
-}
-
-p {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		
+		font-family: "Yantramanav", sans-serif;
+		
+		
+	}
 	
-	font-family: "Heebo", sans-serif;
-
-}
-
-
-/* Elements
---------------------------------------------- */
-ul {
+	p {
+		
+		font-family: "Heebo", sans-serif;
+		
+	}
 	
-}
-
-ol {
+	a {
+		color: #fffcf2;
+		font-family: "Yantramanav" sans-serif;
+	}
 	
-}
-
-dl {
+	a:visited {
+		color: #ccc5b9;
+	}
 	
-}
-
-figure {
+	a:hover {
+		
+	}
 	
-}
-
-table {
+	a:focus {
+		
+	}
 	
+	a:active {
+		
+	}
 }
-
-/* Links
---------------------------------------------- */
-a {
-	color: #fffcf2;
-	font-family: "Yantramanav" sans-serif;
-}
-
-a:visited {
-	color: #ccc5b9;
-}
-
-a:hover {
 	
-}
-
-a:focus {
+	@media (min-width: 48em) {
+		
+	}
 	
-}
-
-a:active {
+	@media (min-width: 90em) {
+		
+	}
 	
-}
-
-
-/*--------------------------------------------------------------
-# Layout
---------------------------------------------------------------*/
-
-
-
-/*--------------------------------------------------------------
-# Components
---------------------------------------------------------------*/
-
-/* Header
---------------------------------------------- */
-
-header {
-	background-color: #eb5e28;
-	padding: .25rem 1rem;
-}
-
-/* Main
---------------------------------------------- */
-
-.site-wrapper {
-
 	
-	/* background-color: #fffcf2; */
-	/* padding: 1rem; */
-
-}
-
-.intro {
+	/* color palletes */
 	
-	padding: 1.5rem 0rem;
+/* pallete one */
 
-}
-
-.intro h1 {
-	color: #fffcf2;
-	text-align: center;
-}
-
-.intro p {
-	color: #ccc5b9;
-	padding: 0rem 1rem;
-	line-height: 1.3rem;
-}
-
-.about-me {
-	color: #fffcf2;
-}
-
-.about-me h2 {
-	text-align: center;
-	color: #eb5e28;
-}
-
-.headshot img {
-
-	border: 8px solid #ccc5b9;
-	border-radius: 50%;
-	width: 50%;
-
-}
-
-.headshot {
-
-}
-
-img {
-	display: block;
-	margin: 0 auto;
-	max-width: 40%;
-}
-/* Footer
---------------------------------------------- */
-
-
-/* color palletes */
-	
-	/* pallete one */
-
-		/* #fffcf2 */
-		/* #ccc5b9 */
-		/* #eb5e28 */
-		/* #252422 */
+/* #fffcf2 */
+/* #ccc5b9 */
+/* #eb5e28 */
+/* #252422 */
 
 	/* ----------- */
