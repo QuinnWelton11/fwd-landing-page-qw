@@ -111,11 +111,12 @@
 	.intro {
 
 		display: block;
-		/* width: 17.5rem; */
-		border: 2px solid red;
-		margin-top: 1rem;
+		width: 17.5rem;
+		/* border: 2px solid red; */
+		
 		justify-items: center;
-		margin-bottom: 10rem;
+		
+		margin: 1rem auto 10rem;
 
 	}
 
@@ -140,7 +141,7 @@
 		margin-top: 3rem;
 		display: block;
 		justify-items: center;
-		border: 2px solid red;
+		/* border: 2px solid red; */
 
 	}
 
@@ -149,13 +150,13 @@
 		justify-items: center;
 		margin-top: 10rem;
 		margin-bottom: 10rem;
-		border: 2px solid red;
+		/* border: 2px solid red; */
 	}
 
 	.contact {
 		display: block;
 		justify-items: center;
-		border: 2px solid red;
+		/* border: 2px solid red; */
 	}
 
 }
