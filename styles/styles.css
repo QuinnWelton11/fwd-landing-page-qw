@@ -167,6 +167,7 @@ header {
 
 .headshot img {
 
+	border: 8px solid #ccc5b9;
 	border-radius: 50%;
 	width: 50%;
 
@@ -183,3 +184,15 @@ img {
 }
 /* Footer
 --------------------------------------------- */
+
+
+/* color palletes */
+	
+	/* pallete one */
+
+		/* #fffcf2 */
+		/* #ccc5b9 */
+		/* #eb5e28 */
+		/* #252422 */
+
+	/* ----------- */
