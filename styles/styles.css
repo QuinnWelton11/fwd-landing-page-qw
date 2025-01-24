@@ -41,7 +41,8 @@
 
 	main {
 
-		margin-top: 5rem;
+		margin: 5rem auto;
+		
 
 	}
 	
@@ -68,7 +69,7 @@
 
 	}
 
-	section h2 {
+	section h2:not(.about-me) {
 
 		position: sticky;
 		top: 3.7119rem;
@@ -78,6 +79,14 @@
 		right: 0;
 		text-align: center;
 		padding: .75rem 0;
+		margin-bottom: 4rem;
+		z-index: 1;
+
+	}
+
+	section p {
+
+		/* margin-top: 1rem; */
 
 	}
 	
@@ -110,6 +119,11 @@
 
 	} */
 
+	.project-examples {
+
+		z-index: 0;
+
+	}
 
 	.html-dropdown,
 	.java-dropdown,
@@ -120,7 +134,7 @@
 		padding: .75rem .5rem;
 		color: #252422;
 		cursor: pointer;
-		margin: 1rem 0;
+		margin: 5rem 1rem;
 		position: relative;
 		display: inline-block;
 
@@ -136,6 +150,8 @@
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		z-index: 1;
+		top: 2.65rem;
+		left: 0;
 
 	}
 	  
@@ -212,7 +228,13 @@
 
 	}
 
-	
+	/* .about-me,
+	.projects,
+	.contact {
+
+		margin-top: 10rem;
+
+	} */
 
 	.intro {
 
@@ -222,7 +244,7 @@
 		
 		justify-items: center;
 		
-		margin: 3rem auto 4rem;
+		margin: 3rem auto 5rem;
 
 	}
 
@@ -245,6 +267,15 @@
 		
 		display: flex;
 		justify-content: center;
+		margin-bottom: 10rem;
+
+	}
+
+	.chevron-down-icon {
+
+		position: sticky;
+		bottom: 0;
+		color: #fffcf2;
 
 	}
 
@@ -280,6 +311,87 @@
 		max-width: 17.5rem;
 		margin: 3rem auto 4rem;
 		/* border: 2px solid red; */
+	}
+
+	.contact-fieldset fieldset {
+
+		margin: 4rem auto 1rem;
+		border: none;
+		background-color: #403D39;
+
+	}
+
+	.contact-fieldset label {
+
+		display: block;
+		margin: 1rem auto;
+		color: #fffcf2;
+		font-family: "Yantramanav", Arial, Helvetica, sans-serif;
+
+	}
+
+	.contact-fieldset input,
+	.contact-fieldset textarea {
+
+		margin-bottom: 1.25rem;
+		resize: none;
+		background-color: #252422;
+		color: #fffcf2;
+		font-family: "Heebo", Arial, Helvetica, sans-serif;
+		width: 100%;
+		height: 1.875rem;
+		
+
+	}
+
+	.contact-fieldset textarea {
+
+		height: 10rem;
+
+		/* padding-right: 2rem;
+		padding-bottom: 3rem; */
+		/* background-color: #252422; */
+
+	}
+
+	.submit {
+
+		text-align: center;
+
+	}
+
+	.btn-submit {
+
+		background-color: #252422;
+        color: #FFFCF2;
+        /* border: 2px solid #ff733c;
+        border-radius: 3px; */
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+		font-family: "Heebo", Arial, Helvetica, sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+
+	}
+
+	footer {
+
+		background-color: #ccc5b9;
+		color: #252422;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 0 0 1.5rem 0;
+
+	}
+
+	footer p,
+	footer address {
+
+		color: #000000;
+
 	}
 
 }
