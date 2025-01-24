@@ -25,11 +25,24 @@
 
 @media (min-width: 20em) {
 
+	html {
+
+		scroll-behavior: smooth;
+		scroll-padding: 3rem;
+
+	}
+
 	body {
 		background-color: #252422;
 		margin: 0 auto;
 		padding: .5rem;
 		max-width: 20rem;
+	}
+
+	main {
+
+		margin-top: 5rem;
+
 	}
 	
 	h1,
@@ -54,34 +67,105 @@
 		
 
 	}
+
+	section h2 {
+
+		position: sticky;
+		top: 3.7119rem;
+		background-color: #403D39;
+		width: 100vw;
+		left: 0;
+		right: 0;
+		text-align: center;
+		padding: .75rem 0;
+
+	}
 	
-	a {
-		color: #fffcf2;
+	a,
+	a:visited,
+	a:focus {
+
+		color: #252422;
 		font-family: "Yantramanav",sans-serif;
+		font-weight: 700;
+		font-size: 1.125rem;
 		text-decoration: none;
 	}
 	
-	a:visited {
-		color: #ccc5b9;
-	}
-	
-	a:hover {
-		
-	}
-	
-	a:focus {
-		
-		background-color: #fffcf2;
-		color: #252422;
-		padding: .125rem;
-		font-weight: bold;
-		font-size: 1.125rem;
-		
-	}
-	
+	a:hover,
 	a:active {
 		
-		color: #eb5e28;
+		padding: .25rem;
+		background-color: #403D39;
+		border: 2px solid #403D39;
+		border-radius: .375rem;
+		color: #FFFCF2;
+		
+		
+	}
+
+	/* .project-examples {
+
+		display: inline-block;
+
+	} */
+
+	.btn {
+		
+		display: inline-block;
+		background-color: #ff733c;
+		padding: .75rem .5rem;
+		color: #252422;
+		cursor: pointer;
+		margin: 1rem 0;
+	
+	}
+
+	.html-dropdown {
+
+		position: relative;
+		display: inline-block;
+
+	}
+	  
+	.dropdown-content {
+
+		display: none;
+		position: absolute;
+		background-color: #403D39;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+
+	}
+	  
+	.dropdown-content a {
+		color: #ff733c;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+	  
+	.dropdown-content .btn:hover {
+		
+		background-color: #f1f1f1
+	
+	}
+	  
+	.html-dropdown:hover .dropdown-content {
+		
+		display: block;
+
+	}
+
+	.site-header {
+
+		background-color: #CCC5B9;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 10000;
 
 	}
 
@@ -101,12 +185,7 @@
 
 	}
 
-	.site-wrapper header {
-
-		background-color: #403d39;
-		padding: .25rem .5rem;
-
-	}
+	
 
 	.intro {
 
@@ -180,7 +259,7 @@
 	
 @media (min-width: 48em) {
 		
-		body {
+		/* body {
 			background-color: #252422;
 			margin: 0 auto;
 			padding: 1rem;
@@ -248,7 +327,7 @@
 			justify-items: center;
 		/* 	border: 2px solid red; */
 		
-		}
+		/* }
 	
 		.site-nav ul {
 	
@@ -293,7 +372,7 @@
 			display: flex;
 			justify-content: center;
 	
-		}
+		} */ 
 
 }
 	

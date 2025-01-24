@@ -14,12 +14,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Mada:wght@200..900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
         <!-- ------------ -->
-         
-        <link rel="icons" href="icons/user-tie-solid.svg">
         
     <!-- Styles -->
         <link rel="stylesheet" href="styles/normalize-fwd.css">
         <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- ------ -->
 
     </head>
@@ -28,25 +27,29 @@
 
         <body id="site-backto-top">
 
-            <header>
+            <div class="site-header">
 
-                <section class="site-nav">
+                <header>
+                    
+                    <section class="site-nav">
 
-                    <nav>
-                        <ul>
+                        <nav>
+                            <ul>
 
-                            <li><a href="#about">About Me</a></li>
+                                <li><a href="#about">About Me</a></li>
 
-                            <li><a href="#projects">Projects</a></li>
+                                <li><a href="#projects">Projects</a></li>
 
-                            <li><a href="#contact">Contact</a></li>
+                                <li><a href="#contact">Contact</a></li>
 
-                        </ul>
-                    </nav>
+                            </ul>
+                        </nav>
 
-                </section>
+                    </section>
 
-            </header>
+                </header>
+
+            </div>
 
             <main>
 
@@ -82,23 +85,47 @@
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, placeat dolor eveniet id a excepturi voluptates, fuga, deserunt beatae necessitatibus atque vitae expedita soluta et iure nesciunt aliquid explicabo fugiat.</p>
 
-                    <a href="" id="html-css">
+                <div class="project-examples">
 
-                        <h3>HTML/CSS</h3>
+                    <div class="html-dropdown">
 
-                    </a>
+                        <button type="menu" class="btn">
 
-                    <a href="" id="java-script">
+                            <i class="fa-brands fa-js fa-2xl"></i>
 
-                        <h3>JavaScript</h3>
-                        
-                    </a>
+                        </button>
 
-                    <a href="" id="design">
+                        <div class="dropdown-content">
 
-                        <h3>Design</h3>
+                            <a href="">Coming Soon</a>
+                            <a href="">Coming Soon</a>
+                            <a href="">Coming Soon</a>
 
-                    </a>
+                        </div>
+
+                    </div>
+
+                    <div class="java-dropdown">
+
+                        <button class="btn">
+
+                            <i class="fa-brands fa-html5 fa-2xl"></i>
+
+                        </button>
+
+                    </div>
+
+                    <div class="design-dropdown">
+
+                        <button class="btn">
+
+                            <i class="fa-solid fa-palette fa-xl"></i>
+
+                        </button>
+
+                    </div>
+
+                
 
                 </section>
 
